@@ -1,0 +1,37 @@
+# Filter: ON PK Fc 125 Hz Gain 1 dB Q 1.4142
+# Filter: ON PK Fc 2500 Hz Gain -2 dB Q 8
+# Filter: ON PK Fc 2700 Hz Gain -2 dB Q 8
+# Stage: 
+Include: matrix - 125hz.txt
+Include: matrix - 250hz.txt
+Include: matrix - 500hz.txt
+Include: matrix - 1000hz.txt
+Include: matrix - 2000hz.txt
+Include: matrix - 4000hz.txt
+Include: matrix - 8000hz.txt
+Include: matrix - 16000hz.txt
+# Copy: L=L+-0.866*L1+-0.500*R1+-0.7071*C1 R=R+-0.866*R1+-0.500*L1+-0.7071*C1
+# Copy: L=0.1*L R=0.1*R
+# Stage: 
+Channel: L1 L2 L3 L4 L5 L6 L7 L8 R1 R2 R3 R4 R5 R6 R7 R8
+Preamp: -7 dB
+Copy: L=L+-0.866*L1+-0.866*L2+-0.866*L3+-0.866*L4+-0.866*L5+-0.866*L6+-0.866*L7+-0.866*L8 R=R+-0.866*R1+-0.866*R2+-0.866*R3+-0.866*R4+-0.866*R5+-0.866*R6+-0.866*R7+-0.866*R8
+Channel: L1 L2 L3 L4 L5 L6 L7 L8 R1 R2 R3 R4 R5 R6 R7 R8
+Preamp: 1 dB
+Copy: L=L+-0.5*R1+-0.5*R2+-0.5*R3+-0.5*R4+-0.5*R5+-0.5*R6+-0.5*R7+-0.5*R8 R=R+-0.5*L1+-0.5*L2+-0.5*L3+-0.5*L4+-0.5*L5+-0.5*L6+-0.5*L7+-0.5*L8
+Channel: C1 C2 C3 C4 C5 C6 C7 C8
+Preamp: -9 dB
+Copy: L=L+-0.7071*C1+-0.7071*C2+-0.7071*C3+-0.7071*C4+-0.7071*C5+-0.7071*C6+-0.7071*C7+-0.7071*C8 R=R+-0.7071*C1+-0.7071*C2+-0.7071*C3+-0.7071*C4+-0.7071*C5+-0.7071*C6+-0.7071*C7+-0.7071*C8
+# Copy: 
+# Stage: 
+Channel: L R
+# Filter: ON PK Fc 443 Hz Gain 0 dB Q 0.1667
+Filter: ON PK Fc 886 Hz Gain 1 dB Q 0.1667
+Filter: ON PK Fc 25000 Hz Gain -1 dB Q 0.4567
+Stage: 
+Channel: L
+# Filter: ON PK Fc 686 Hz Gain 0.5 dB Q 0.1667
+Filter: ON PK Fc 64 Hz Gain 0.8 dB Q 0.7071
+Filter: ON PK Fc 83 Hz Gain 0.8 dB Q 1.1
+Channel: R
+Filter: ON PK Fc 68 Hz Gain 1 dB Q 0.7142

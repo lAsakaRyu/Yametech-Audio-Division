@@ -1,0 +1,13 @@
+Copy: C2=0.5*L+0.5*R L2=L R2=R
+Channel: L2
+Delay: 1 ms
+Channel: R2
+Delay: 3 ms
+Channel: C2
+Delay: 2 ms
+# Preamp: -2 dB
+Channel: C2 L2 R2
+# Preamp: -7 dB
+Filter: ON BP Fc 250 Hz Q 2.871
+# Copy: L=L+-0.7071*C2+-0.866*L2+-0.5*R2 R=R+-0.7071*C2+-0.5*L2+-0.866*R2
+# Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C

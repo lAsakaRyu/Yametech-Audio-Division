@@ -1,0 +1,13 @@
+Copy: C6=0.5*L+0.5*R L6=L R6=R
+Channel: L6
+Delay: 0.06 ms
+Channel: R6
+Delay: 0.19 ms
+Channel: C6
+Delay: 0.13 ms
+# Preamp: -2 dB
+Channel: C6 L6 R6
+# Preamp: -7 dB
+Filter: ON BP Fc 4000 Hz Q 2.871
+# Copy: L=L+-0.7071*C6+-0.866*L6+-0.5*R6 R=R+-0.7071*C6+-0.5*L6+-0.866*R6
+# Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C

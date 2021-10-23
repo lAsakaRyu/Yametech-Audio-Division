@@ -1,0 +1,13 @@
+Copy: C8=0.5*L+0.5*R L8=L R8=R
+Channel: L8
+Delay: 0.01 ms
+Channel: R8
+Delay: 0.04 ms
+Channel: C8
+Delay: 0.03 ms
+# Preamp: -2 dB
+Channel: C8 L8 R8
+# Preamp: -7 dB
+Filter: ON BP Fc 16000 Hz Q 2.871
+# Copy: L=L+-0.866*L8+-0.5*R8+-0.7071*C8 R=R+-0.5*L8+-0.866*R8+-0.7071*C8
+# Copy: L=L+-0.8165*L1+-0.5774*R1+-0.7071*C R=R+-0.8165*L1+-0.5774*R1+-0.7071*C
