@@ -1,10 +1,13 @@
 # Preamp: -3 dB
 # Device:  Output A1 Voicemeeter
 # Stage: 
-# Filter: ON PK Fc 70 Hz Gain -3 dB Q 1
-Filter: ON PK Fc 91 Hz Gain -6 dB Q 5
-Filter: ON PK Fc 111 Hz Gain -9 dB Q 15
-Filter: ON PK Fc 175 Hz Gain -9 dB Q 14
+# Filter: ON PK Fc 120 Hz Gain -4 dB Q 4
+# Filter: ON PK Fc 91 Hz Gain -6 dB Q 5
+# Filter: ON PK Fc 111 Hz Gain -5 dB Q 15
+# Filter: ON PK Fc 175 Hz Gain -9 dB Q 14
+Filter: ON PK Fc 110 Hz Gain -15 dB Q 15
+Filter: ON PK Fc 85 Hz Gain -3 dB Q 4
+Filter: ON PK Fc 93 Hz Gain -3 dB Q 10
 # Stage: 
 Filter: ON PK Fc 15 Hz Gain 3 dB Q 0.7071
 Filter: ON PK Fc 31.5 Hz Gain 1 dB Q 0.7071
@@ -83,6 +86,7 @@ Filter: ON PK Fc 5000 Hz Gain -5 dB Q 4
 Filter: ON PK Fc 6500 Hz Gain 1 dB Q 1.4142
 Filter: ON PK Fc 6800 Hz Gain 3 dB Q 7
 Filter: ON PK Fc 7000 Hz Gain -3 dB Q 10
+Filter: ON PK Fc 7500 Hz Gain -6 dB Q 4
 # Stage: 
 # Filter: ON LP Fc 16000 Hz
 Filter: ON PK Fc 8000 Hz Gain -3 dB Q 4

@@ -3,7 +3,7 @@
 # Stage: 
 # Preamp: 20 dB
 # Include: SideSub.txt
-Device: Speakers FiiO Q series {25e07367-1883-4f78-809e-813ac80b5df3}
+# Device:  Speakers FiiO Q series {25e07367-1883-4f78-809e-813ac80b5df3}
 # Filter: ON PK Fc 6000 Hz Gain 20 dB Q 4
 # Filter: ON LP Fc 16000 Hz
 # Filter: ON LPQ Fc 90 Hz Q 0.541
@@ -24,6 +24,7 @@ Preamp: -4 dB
 # Include: OBIEM.txt
 # Include: Philips.txt
 # Include: Philips V2.txt
+# Include: SpeakerV2.txt
 # Include: Speaker.txt
 # Include: SRH440.txt
 Include: HD650.txt
