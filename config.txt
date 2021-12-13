@@ -3,7 +3,7 @@
 # Stage: 
 # Preamp: 20 dB
 # Include: SideSub.txt
-# Device:  Speakers FiiO Q series {25e07367-1883-4f78-809e-813ac80b5df3}
+Device: Speakers FiiO Q series {18dbe61d-06e2-44d0-bf15-762ceba17865}
 # Filter: ON PK Fc 6000 Hz Gain 20 dB Q 4
 # Filter: ON LP Fc 16000 Hz
 # Filter: ON LPQ Fc 90 Hz Q 0.541
@@ -33,7 +33,7 @@ Include: HD650.txt
 # Stage: 
 # Include: XLows.txt
 # Include: SideSub.txt
-Include: matrix main.txt
+# Include: matrix main.txt
 Include: ReversePhase.txt
 Include: linkwitz_transformation.txt
 # Include: crossfeed.txt

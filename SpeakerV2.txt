@@ -2,13 +2,15 @@
 # Filter: ON PK Fc 85 Hz Gain -3 dB Q 4
 # Filter: ON PK Fc 93 Hz Gain -3 dB Q 10
 # Stage: 
-Preamp: -4.3 dB
+Preamp: -3.6 dB
 Channel: L
 Include: SpeakerLeftREW.txt
 Include: SpeakerLeftAdjustment.txt
 Channel: R
 Include: SpeakerRightREW.txt
 Include: SpeakerRightAdjustment.txt
-Channel: all
+Channel: ALL
+Filter: ON LS Fc 25 Hz Gain 2 dB
+Filter: ON LS Fc 140 Hz Gain 4 dB
 Filter: ON PK Fc 157 Hz Gain 3 dB Q 1.4243
-Filter: ON PK Fc 20000 Hz Gain 2 dB Q 0.7071
+Filter: ON PK Fc 3500 Hz Gain 1 dB Q 0.5
