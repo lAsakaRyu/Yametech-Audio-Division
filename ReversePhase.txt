@@ -8,6 +8,3 @@ Channel: HL HR
 # Filter: ON HPQ Fc 75 Hz Q 0.5
 # Preamp: -90 dB
 Copy: L=-1.0*LL+HL R=-1.0*LR+HR
-Channel: all
-Filter: ON HPQ Fc 8 Hz Q 0.541
-Filter: ON HPQ Fc 8 Hz Q 1.307

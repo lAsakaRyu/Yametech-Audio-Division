@@ -23,7 +23,7 @@ Channel: C1 C2 C3 C4 C5 C6 C7 C8
 Preamp: -9 dB
 Copy: L=L+-0.7071*C1+-0.7071*C2+-0.7071*C3+-0.7071*C4+-0.7071*C5+-0.7071*C6+-0.7071*C7+-0.7071*C8 R=R+-0.7071*C1+-0.7071*C2+-0.7071*C3+-0.7071*C4+-0.7071*C5+-0.7071*C6+-0.7071*C7+-0.7071*C8
 # Copy: 
-# Stage: 
+Stage: 
 Channel: L R
 # Filter: ON PK Fc 443 Hz Gain 0 dB Q 0.1667
 Filter: ON PK Fc 886 Hz Gain 1 dB Q 0.1667
