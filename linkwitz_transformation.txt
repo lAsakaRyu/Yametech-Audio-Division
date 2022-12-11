@@ -1,9 +1,9 @@
 #
 # set your parameters ------------
-Do: `f0 = 45`
+Do: `f0 = 40`
 Do: `fp = 20`
-Do: `q0 = 0.75`
-Do: `qp = 1`
+Do: `q0 = 0.7071`
+Do: `qp = 0.7071`
 # --------------------------------
 # Coefficient calculations--------
 Do: `B11 = (f0 + fp) / 2.0`

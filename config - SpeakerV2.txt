@@ -24,10 +24,10 @@ Filter: ON LS Fc 30000 Hz Gain -5 dB
 # Include: OBIEM.txt
 # Include: Philips.txt
 # Include: Philips V2.txt
-# Include: SpeakerV2.txt
+Include: SpeakerV2.txt
 # Include: Speaker.txt
 # Include: SRH440.txt
-Include: HD650.txt
+# Include: HD650.txt
 # Include: T1.txt
 # Include: BMB.txt
 # Stage: 

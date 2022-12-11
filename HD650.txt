@@ -1,8 +1,8 @@
 # Preamp: 0 dB
 # Include: matrix main.txt
 # Stage: 
-Filter: ON PK Fc 10 Hz Gain 9 dB Q 0.7071
-Filter: ON PK Fc 31.5 Hz Gain 1.4 dB Q 0.7071
+Filter: ON PK Fc 8 Hz Gain 7 dB Q 0.8
+Filter: ON PK Fc 31.5 Hz Gain 1.2 dB Q 0.7071
 Filter: ON PK Fc 62 Hz Gain -0.7 dB Q 0.7071
 # Filter: ON PK Fc 125 Hz Gain 0 dB Q 0.7071
 # Filter: ON PK Fc 250 Hz Gain 3 dB Q 0.7071
