@@ -1,3 +1,4 @@
-Include: Buds2Pro.txt
+# Include: Buds2Pro.txt
+Include: Samsung Galaxy Buds2 Pro Filters.txt
 Include: ReversePhase.txt
 Include: linkwitz_transformation.txt
